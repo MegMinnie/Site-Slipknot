@@ -1,0 +1,331 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: white;
+  color: black;
+  min-height: 100svh;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding-right: 8px;
+}
+
+.hea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-menu {
+  width: 90px;
+  height: 50px;
+}
+ul,
+li {
+  cursor: pointer;
+  padding: 8px;
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.bi-list {
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.bi-list:hover {
+  background-color: #e7ecf1;
+  color: black;
+  width: 35px;
+  height: 30px;
+  text-align: center;
+}
+
+.menu {
+  display: none;
+}
+
+.img {
+  width: 100%;
+  height: 300px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.justificado {
+  text-align: justify;
+  margin: 10px;
+}
+.integrantes {
+  width: 160px;
+  height: 200px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.eventos {
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 70px;
+}
+
+.titulo-even {
+  margin-top: 15px;
+}
+
+.shows {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-bottom: 1px solid rgb(66, 61, 61);
+  width: 90%;
+  margin: 0% auto;
+}
+
+.alinhado {
+  display: flex;
+  gap: 10px;
+}
+
+.alinhado-d {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.l-vermelho {
+  background-color: red;
+  padding: 2px;
+  color: white;
+}
+
+.l-black {
+  background-color: black;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  justify-content: center;
+}
+
+.img-eventos {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.img-even {
+  width: 100%;
+  height: 230px;
+}
+
+.text {
+  margin: 10px;
+}
+.botao {
+  background-color: black;
+  color: white;
+  height: 40px;
+  font-size: 17px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 15px;
+}
+.cont {
+  display: flex;
+  gap: 20px;
+}
+
+.separado {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-dados {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.foto-banda {
+  width: 100%;
+}
+
+footer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.rp {
+  font-size: 23px;
+  color: rgb(73, 72, 72);
+}
+
+.rp:hover {
+  color: #898a8b;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+
+  .header {
+    display: flex;
+  }
+}
+
+.hea {
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  height: 400px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: repeat(2, 0.5fr);
+}
+
+.eventos-pc {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  margin: 0% auto;
+  margin-top: 20px;
+}
+
+.form-dados {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.form {
+  width: 400px;
+}
+
+.cont-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+@media (min-width: 1024px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hea {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img {
+    height: 550px;
+  }
+
+  .justificado {
+    width: 70%;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .eventos {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 30px;
+  }
+
+  .contato {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+}
