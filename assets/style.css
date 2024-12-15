@@ -11,6 +11,7 @@ body {
   color: black;
   min-height: 100svh;
   font-family: sans-serif;
+  margin: 0 auto;
 }
 
 header {
@@ -50,6 +51,10 @@ a {
   font-size: 25px;
   cursor: pointer;
   margin-top: 10px;
+}
+
+.bi-search {
+  display: none;
 }
 
 .bi-list:hover {
@@ -254,6 +259,10 @@ footer {
   height: 400px;
 }
 
+.bi-search {
+  display: none;
+}
+
 section {
   display: grid;
   grid-template-columns: repeat(3, 0.5fr);
@@ -327,5 +336,16 @@ section {
   .contato {
     padding-right: 250px;
     padding-left: 250px;
+  }
+
+  .bi-list {
+    display: none;
+  }
+
+  .bi-search {
+    display: inline;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
   }
 }
