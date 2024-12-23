@@ -1,7 +1,7 @@
 const corpo = document.querySelector("body");
 const list = document.querySelector(".bi-list");
 const menu = document.querySelector(".menu");
-const img = document.querySelector(".img"); // Certifique-se de que é uma <img>
+const img = document.querySelector(".img"); 
 const images = [
   "assets/fotos/slipknot1.webp",
   "assets/fotos/slipknot2.webp",
