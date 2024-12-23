@@ -25,6 +25,7 @@
 ![tela 3 ](assets/fotos/tela3-desktop.png)
 
 **Design - Versão mobile:**
+<br>
 ![tela 1](assets/fotos/tela1-mobile.png)
 ![tela 2 ](assets/fotos/tela2-mobile.png)
 ![tela 3 ](assets/fotos/tela3-mobile.png)
